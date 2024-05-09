@@ -1,0 +1,112 @@
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+.linkedin{
+    width: 50px;
+    height: 50px;
+    margin: 7px;
+    cursor: pointer;
+   
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+.inpt{
+    padding: 20px 40px ;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+.div-search{
+    position: relative;
+}
+.search{
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+.inpt:focus + .box1 {
+    display: block;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+.div-location{
+    position: relative;
+}
+.location{
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+.inptlocation{
+    padding: 20px 40px ;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+.inptlocation:focus + .box2 {
+    display: block;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.box1 a{
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    font-size: 30px;
+    padding: 0 100px 0 20px;
+}
+.box2 a{
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    font-size: 30px;
+    padding-inline: 30px 100px;
+   
+}
+.home{
+    position: relative;
+}
+.span-home{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 2px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+
+}
+li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    flex-direction: column  ;
+    
+}
+li{
+    list-style: none;
+    margin-inline: 20px;
+}
+a  img{
+    width: 40px;
+}
